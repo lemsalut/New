@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: grey;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+
+img{
+  width: 100%;
+}
+
+.pageimage {
+  position: relative;
+  text-align: center;
+  color: red;
+}
+
+#text {
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  font-family: garamond;
+  padding: 8px;
+  position: absolute;
+  width: 100%;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  text-shadow: 10px 10px 15px black;
+}
